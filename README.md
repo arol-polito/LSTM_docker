@@ -4,7 +4,7 @@
 
 This project implements a **Long Short-Term Memory (LSTM)** model, converted to TensorFlow Lite (TFLite) format, to predict future temperature values based on real-time data received over a TCP connection. Using a sliding window approach, the model uses past temperature data to generate future predictions. The results are then saved in a CSV file.
 
-## Publications related
+## Related Publications
 
 1. [Optimizing Lstm-Based Temperature Prediction Algorithm for Embedded System Deployment](https://ieeexplore-ieee-org.ezproxy.biblio.polito.it/document/10711142)  
 (2024-10-16: Published on IEEEXplore)

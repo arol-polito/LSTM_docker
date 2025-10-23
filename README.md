@@ -4,6 +4,13 @@
 
 This project implements a **Long Short-Term Memory (LSTM)** model, converted to TensorFlow Lite (TFLite) format, to predict future temperature values based on real-time data received over a TCP connection. Using a sliding window approach, the model uses past temperature data to generate future predictions. The results are then saved in a CSV file.
 
+## Publications related
+
+1. [Optimizing Lstm-Based Temperature Prediction Algorithm for Embedded System Deployment](https://ieeexplore-ieee-org.ezproxy.biblio.polito.it/document/10711142)  
+(2024-10-16: Published on IEEEXplore)
+2. [A Scalable Fog Computing Solution for Industrial Predictive Maintenance and Customization](https://www.mdpi.com/2079-9292/14/1/24)  
+(2024-12-25: Published on MDPI- Electronics)
+
 ## How It Works
 
 1. **Data Collection**: The script listens for incoming temperature data via a TCP socket connection. Each node sends temperature readings and labels in the format `node_name;temperature_label;temperature_value`.
